@@ -20,6 +20,6 @@ def get_count(sentence):
         if letter in vowel:
             vow_count += 1
     return vow_count
-#Vowel Count Assigenment 
+#Vowel Count Assignment 
 
 
