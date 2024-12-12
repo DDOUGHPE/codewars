@@ -13,8 +13,13 @@ def number_to_string(num):
 #Convert Interger into String 
 
 
-sentence = 'how high is the water mama'
-print(sentence.split())
-
+def get_count(sentence):
+    vowel = ['a','e','i','o','u']
+    vow_count = 0
+    for letter in sentence:
+        if letter in vowel:
+            vow_count += 1
+    return vow_count
+#Vowel Count Assigenment 
 
 
